@@ -1,0 +1,20 @@
+This is my Python 2.x implementation of the Markov chain algorithm
+described in Kernighan and Pike's "The Practice of Programming"
+(Reading, MA: Addison-Wesley, 1999), Chapter 3, pp. 61-75.
+
+./markov-tpop.py < TEXTFILE | fmt | more
+
+Included with markov-tpop.py are following text files:
+brooks.txt
+empty.txt
+one.txt
+pridech1.txt
+psalms.txt
+three.txt
+two.txt
+
+Handling empty.txt, one.txt, and two.txt do NOT require any special-
+purpose code in markov-tpop.py. (Thanks to K&P.)
+
+Paul Eissen
+25 February 2018

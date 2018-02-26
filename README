@@ -1,20 +1,23 @@
+# Markov Chain Algorithm in Python
+
 This is my Python 2.x implementation of the Markov chain algorithm
-described in Kernighan and Pike's "The Practice of Programming"
+described in Kernighan and Pike's <a href="https://www.cs.princeton.edu/~bwk/tpop.webpage/" target="_blank">The Practice of Programming</a>
 (Reading, MA: Addison-Wesley, 1999), Chapter 3, pp. 61-75.
 
-./markov-tpop.py < TEXTFILE | fmt | more
+Usage:
+    ./markov-tpop.py < TEXTFILE | fmt
+    cat TEXTFILE | ./markov-tpop.py | fmt
+where TEXTFILE is the name of a file containing English text.
 
-Included with markov-tpop.py are following text files:
-brooks.txt
-empty.txt
-one.txt
-pridech1.txt
-psalms.txt
-three.txt
-two.txt
+Included with markov-tpop.py are several text files, including ones
+that demonstrate that (thanks to K&P) markov-tpop.py does NOT require
+any edge-case code to handle empty text files and files that contain
+only one or two words.
 
-Handling empty.txt, one.txt, and two.txt do NOT require any special-
-purpose code in markov-tpop.py. (Thanks to K&P.)
-
-Paul Eissen
-25 February 2018
+Copyright (c) 2018 by Paul Eissen. This work is made available under
+a <a href=" https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<br>
+<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">
+<img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"
+alt="Creative Commons Attribution-ShareAlike button"
+style="border-width:0"></a>

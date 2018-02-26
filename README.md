@@ -11,10 +11,9 @@ Usage:
 ```
 where TEXTFILE is the name of a file containing English text.
 
-Along with `markov-tpop.py` are several text files, including ones that
-demonstrate that (thanks to K&P) our script does NOT require any edge-case
-code to handle empty text files, files with one word, and files with two
-words.
+`markov-tpop.py` comes with several text files to play with, including some
+that show (thanks to K&P) how the script avoids the use of edge-case code
+to handle empty text files, files with one word, and files with two words.
 
 Copyright (c) 2018 by Paul Eissen. This work is made available under
 a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).

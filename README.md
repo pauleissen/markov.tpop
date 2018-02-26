@@ -1,4 +1,4 @@
-# Markov Chain Algorithm in Python
+## Markov Chain Algorithm in Python
 
 This is my Python 2.x implementation of the Markov chain algorithm
 described in Kernighan and Pike's [The Practice of Programming](https://www.cs.princeton.edu/~bwk/tpop.webpage/)

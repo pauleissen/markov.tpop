@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 #
-# Python 2.x implementation of the Markov chain algorithm as described
-# in Kernighan and Pike, "The Practice of Programming" (Addison-Wesley,
-# 1999), Chapter 3, pp. 61-75.
+# Python 2.x implementation of the Markov chain algorithm described
+# Kernighan and Pike's "The Practice of Programming".
 #
 # Suggested usage:
 #     ./markov-tpop.py < TEXTFILE | fmt | more
